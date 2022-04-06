@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/* google */
+
+.googlesearch {
+    height: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+    color: white;
+    background: #202124;
+    padding: 110px;
+    border-top: 3px solid #4285f4;
+}
+
+.googlesearch h1 {
+    text-align: center;
+    font-size: 64px;
+    margin-bottom: 12px;
+}
+
+.googlesearch button {
+    width: 120px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background: #303134;
+    border: 1px solid #303134;
+    display: block;
+    margin: 26px auto;
+}
+
+.googlesearch button:hover {
+    border: 1px solid #4285f4;
+    box-sizing: border-box;
+}
+
+
+.googlesearch input {
+    border: 0;
+    padding: 12px;
+    border-radius: 6px;
+    display: block;
+    margin: 0 auto;
+    width: 47%;
+    color: white;
+    background: #202124;
+    border: 0;
+    border: 1px solid grey;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.googlesearch input:focus {
+    outline: none;
+}
+
+.googlesearch input placeholder {
+    margin-left: 12px;
+}
+
+.googlesearch input:hover {
+    background: #303134;
+}
+
+.errspan {
+    float: left;
+    margin-right: 12px;
+    margin-top: -30px;
+    position: relative;
+    z-index: 2;
+    left: 71%;
+}
+
+
+/* reddit */
+
+.redditsearch {
+    height: 475px;
+    margin: 0 auto;
+    border: 1px solid black;
+    color: white;
+    background: #202124;
+    padding: 110px;
+    border-top: 3px solid #ff6314;
+}
+
+.redditsearch input {
+    border: 0;
+    padding: 12px;
+    border-radius: 6px;
+    display: block;
+    margin: 0 auto;
+    width: 47%;
+    color: white;
+    background: #202124;
+    border: 1px solid grey;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.redditsearch svg {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+
+.redditsearch button {
+    width: 120px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background: #303134;
+    border: 1px solid #303134;
+    display: block;
+    margin: 26px auto;
+}
+
+.redditsearch button:hover {
+    border: 1px solid #ff6314;
+}
+
+.redditsearch input:focus {
+    outline: none;
+}
+
+.redditsearch input:hover {
+    background: #303134;
+}
